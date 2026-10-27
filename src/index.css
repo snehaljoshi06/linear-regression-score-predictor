@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF7F2;
+  color: #3B182E;
+}
+
+/* Custom styling for sliders to match editorial plum & blue style */
+input[type="range"] {
+  accent-color: #2563EB;
+}
+
+/* Smooth transitions */
+* {
+  box-sizing: border-box;
+}

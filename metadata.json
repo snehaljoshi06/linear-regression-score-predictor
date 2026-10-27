@@ -1,0 +1,6 @@
+{
+  "name": "Can You Predict Your Exam Score? | Linear Regression Explorer",
+  "description": "An interactive Applied Mathematics web application exploring Ordinary Least Squares (OLS) linear regression between study hours and exam performance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
